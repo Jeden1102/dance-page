@@ -1,11 +1,15 @@
 <template>
     <div>
-        SIEMA
+        <Banner/>
     </div>
 </template>
 
 <script>
+import Banner from '@/components/Banner.vue';
 export default {
+    components:{
+        Banner,
+    },
     setup () {
         return {}
     }
